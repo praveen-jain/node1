@@ -5,7 +5,7 @@ var application = express();
 
 application.set('port', (process.env.PORT || 5000));
 
-application.use(express.static(__dirname + '/public'));
+application.use(express.static(__dirname + '/dist'));
 
 application.set('views', __dirname+'/views');
 

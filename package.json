@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
+    "start": "webpack && node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,15 +16,19 @@
     "expressjs",
     "ejs"
   ],
-  "dependencies":{
+  "dependencies": {
+    "ejs": "*",
     "express": "*",
-    "ejs" : "*",
-    "log4js" : "*"
+    "lodash": "*",
+    "log4js": "*"
   },
   "author": "Praveen Jain",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/praveen-jain/node1/issues"
   },
-  "homepage": "https://github.com/praveen-jain/node1#readme"
+  "homepage": "https://github.com/praveen-jain/node1#readme",
+  "devDependencies": {
+    "webpack": "^2.5.0"
+  }
 }
