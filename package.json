@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "build:development": "webpack --config webpack.config.js --env=development --progress --profile --colors",
-    "build:production": "webpack --config  webpack.config.js --env=production --progress --profile --colors",
-    "lint": "eslint ./{server,app,config}/**/*{config,''}.js",
+    "build:production": "webpack -p --config  webpack.config.js --env=production --progress --profile --colors",
+    "lint": "eslint ./server/**/*{config,''}.js",
     "postinstall": "npm run build:development"
   },
   "repository": {
