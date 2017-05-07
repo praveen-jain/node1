@@ -19,7 +19,8 @@
     "ejs": "*",
     "express": "*",
     "lodash": "*",
-    "log4js": "*"
+    "log4js": "*",
+    "webpack": "^2.5.0"
   },
   "author": "Praveen Jain",
   "license": "MIT",
@@ -28,6 +29,6 @@
   },
   "homepage": "https://github.com/praveen-jain/node1#readme",
   "devDependencies": {
-    "webpack": "^2.5.0"
+    
   }
 }
