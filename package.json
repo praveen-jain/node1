@@ -4,7 +4,6 @@
   "description": "NodeJS, ExpressJS and EJS template engine",
   "main": "index.js",
   "scripts": {
-    "postinstall" : "webpack",
     "start": "node index.js"
   },
   "repository": {
